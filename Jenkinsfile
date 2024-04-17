@@ -19,7 +19,7 @@ pipeline {
 		
 		stage('Docker Run'){
 			steps {
-				sh 'docker run -d -p 9090:9090 -name Demo demo:${BUILD_NUMBER}'
+				sh 'docker run -d -p 9090:9090 --name Jenkin-Demo demo:${BUILD_NUMBER}'
 			}
 		}
 		
