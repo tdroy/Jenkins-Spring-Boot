@@ -13,7 +13,7 @@ pipeline {
 		
 		stage('Docker Image'){
 			steps {
-				sh 'docker build -t demo:${BUILD_NUMBER}'
+				sh 'docker build -t demo:${BUILD_NUMBER} .'
 			}
 		}
 		
