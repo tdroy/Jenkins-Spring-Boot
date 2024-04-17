@@ -16,6 +16,7 @@ public class CustomerController
       List<Customer> customerList = new ArrayList<Customer>();
       customerList.add(new Customer(1, "tanmoy"));
       customerList.add(new Customer(2, "troy"));
+      customerList.add(new Customer(2, "tdroy"));
       return customerList;
     }
 }
