@@ -12,6 +12,7 @@ public class CustomerController
     @RequestMapping("/")
     public List<Customer> findAll()
     {
+      System.out.println(new java.util.Date() + " : Inside Customer Controller.");
       List<Customer> customerList = new ArrayList<Customer>();
       customerList.add(new Customer(1, "tanmoy"));
       customerList.add(new Customer(2, "troy"));
