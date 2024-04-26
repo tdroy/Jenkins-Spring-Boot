@@ -17,6 +17,7 @@ public class CustomerController
       customerList.add(new Customer(1, "tanmoy"));
       customerList.add(new Customer(2, "troy"));
       customerList.add(new Customer(2, "tdroy"));
+      customerList.add(new Customer(3, "dharani"));
       return customerList;
     }
 }
