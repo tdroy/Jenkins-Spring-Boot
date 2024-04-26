@@ -30,7 +30,7 @@ pipeline {
 		
 		stage('Docker Run'){
 			steps {
-				sh 'docker run -d -p 9090:9090 --name ${IMAGE_NAME} ${IMAGE_NAME}:${BUILD_NUMBER}'
+				sh 'docker run -d -p 9090:9090 --name ${IMAGE_NAME}-cnt ${IMAGE_NAME}:${BUILD_NUMBER}'
 			}
 		}
 		
